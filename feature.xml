@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="ch.so.agi.dbeaver.ili2pg.feature"
+      label="ili2pg"
+      version="1.0.0.qualifier"
+      provider-name="Amt für Geoinformation (Kanton Solothurn)">
+
+   <description url="http://www.example.com/description">
+      Ili2pg integration for DBeaver.
+   </description>
+
+   <copyright url="https://agi.so.ch/">
+      Amt für Geoinformation / Kanton Solothurn
+   </copyright>
+
+   <license url="https://github.com/edigonzales/dbeaver-ili2pg-plugin/blob/main/LICENSE">
+      MIT License
+   </license>
+
+   <plugin
+         id="ch.so.agi.dbeaver.ili2pg"
+         version="0.0.0"/>
+
+</feature>

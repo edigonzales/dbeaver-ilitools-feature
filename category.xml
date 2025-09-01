@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+
+  <!-- Define a category (folder) that will appear in the installer -->
+  <category-def name="interlis" label="INTERLIS Tools">
+    <description>INTERLIS tools integration for DBeaver</description>
+  </category-def>
+
+  <!-- Put your feature into that category -->
+  <feature
+      id="ch.so.agi.dbeaver.ili2pg.feature"
+      version="0.0.0">
+    <category name="interlis"/>
+  </feature>
+
+</site>
