@@ -1,1 +1,1 @@
-# dbeaver-ili2pg-feature
+# dbeaver-ilitools-feature
