@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
 
-  <!-- Define a category (folder) that will appear in the installer -->
+  <!-- Existing INTERLIS category -->
   <category-def name="interlis" label="INTERLIS Tools">
     <description>INTERLIS tools integration for DBeaver</description>
   </category-def>
 
-  <!-- Put your feature into that category -->
   <feature
       id="ch.so.agi.dbeaver.ili2pg.feature"
       version="0.0.0">
     <category name="interlis"/>
+  </feature>
+
+  <!-- New AI category -->
+  <category-def name="ai" label="AI Tools">
+    <description>AI tools integration for DBeaver</description>
+  </category-def>
+
+  <feature
+      id="ch.so.agi.dbeaver.ai.feature"
+      version="0.0.0">
+    <category name="ai"/>
   </feature>
 
 </site>
