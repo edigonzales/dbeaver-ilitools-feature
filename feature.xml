@@ -2,7 +2,7 @@
 <feature
       id="ch.so.agi.dbeaver.ili2pg.feature"
       label="ili2pg"
-      version="1.0.1.qualifier"
+      version="1.0.3.qualifier"
       provider-name="Amt für Geoinformation (Kanton Solothurn)">
 
    <description url="http://www.example.com/description">
